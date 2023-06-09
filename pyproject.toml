@@ -2,7 +2,7 @@
 name = "timeoff"
 description = "Track vacation hours accrued."
 readme = "README.md"
-version = "0.0.3"
+version = "0.0.4"
 license = { text = "MIT" }
 requires-python = ">=3.8"
 authors = [

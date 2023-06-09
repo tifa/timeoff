@@ -132,7 +132,7 @@ def add_prompt():
             "name": "start_date",
             "message": "Start date (YYYY-MM-DD)",
             "default": str(current_date),
-            "validate": date_validator(lambda val: val >= current_date
+            "validate": date_validator(lambda val: val >= starting_date
                                        or f"Please enter a date on/after the starting date {starting_date}"),
             "filter": lambda val: datetime.strptime(val, "%Y-%m-%d").date(),
         },
